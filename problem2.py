@@ -15,3 +15,9 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+x=1
+n = int(input("give me a number "))
+while x <= 12:
+    e=n*x
+    x += 1
+    print(e)
