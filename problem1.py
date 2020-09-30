@@ -18,8 +18,8 @@ Access granted
 Acces denied
 """
 i= 0
-user= input("what is your Username\n").strip()
-pas = input("what is your password\n").strip()
+user= input("what is your Username:").strip()
+pas = input("what is your password:").strip()
 while i < 3:
     i += 1
     if user != "admin" or pas != "12345":
