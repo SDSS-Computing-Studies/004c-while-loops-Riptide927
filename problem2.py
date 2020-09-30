@@ -20,4 +20,4 @@ n = int(input("give me a number "))
 while x <= 12:
     e=n*x
     x += 1
-    print(e)
+    print(e,end=" ")
