@@ -20,4 +20,4 @@ while x < 100:
     x=b+a
     b=a
     a=x
-    print(x)
+    print(x, end=" ")
