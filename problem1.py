@@ -25,5 +25,5 @@ while i < 3:
     if user != "admin" or pas != "12345":
         print("Access denied")
     if user == "admin" and pas == "12345":
-        print("Access granted")
+        print("Access granted.")
         break
